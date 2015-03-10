@@ -1,7 +1,7 @@
 #set up by Nephi
 language: cpp
 compiler:
-  - gcc
-  - clang
+  - g++
+  #- clang
 # Change this to your needs
 script: ./configure && make

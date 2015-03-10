@@ -1,8 +1,8 @@
 
 
-OBJS = refs.o
+OBJS = build/test.o
 LDLIBS = 
-EXEC = refs
+EXEC = test
 CFLAGS = -ggdb -Wall
 HEADERS = 
 
