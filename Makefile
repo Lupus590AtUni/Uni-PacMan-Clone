@@ -1,19 +1,28 @@
+#Makefile
 
-
-OBJS = build/test.o
+OBJS = test.o
 LDLIBS = 
 EXEC = test
 CFLAGS = -ggdb -Wall
 HEADERS = 
 
-$(EXEC): $(OBJS)
-	g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
-	#gcc -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
+#all : foo
+#.PHONY : all
+
+test: $(OBJS)
+	cd src
+	gcc -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
+
 #foo.o: bar.o baz.o
 
 %.o: %.c
-	g++ -c $(CFLAGS) $< -o $@
-	#gcc -c $(CFLAGS) $< -o $@ - need c++ headers
+	cd src
+	gcc -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(OBJS) $(EXEC)
+
+#untested!
+#install: foo
+#	install -m 644 foo /$(HOME)/bin
+#.PHONY: install
