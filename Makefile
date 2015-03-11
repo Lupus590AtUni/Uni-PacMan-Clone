@@ -5,6 +5,7 @@ LDLIBS =
 EXEC = test
 CFLAGS = -ggdb -Wall
 HEADERS = 
+SOURCE=src
 
 #cd src
 
@@ -12,12 +13,12 @@ HEADERS =
 #.PHONY : all
 
 test: $(OBJS)
-	cd src; gcc -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
+	cd src; g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
 
 #foo.o: bar.o baz.o
 
 %.o: %.c
-	cd src; gcc -c $(CFLAGS) $< -o $@
+	cd src; g++ -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(OBJS) $(EXEC)
