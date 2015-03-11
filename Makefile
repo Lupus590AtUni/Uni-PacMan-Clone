@@ -5,20 +5,20 @@ LDLIBS =
 EXEC = test
 CFLAGS = -ggdb -Wall
 HEADERS = 
-SOURCE=src
+PATH=src
+FILES=*.hpp *.cpp
 
-#cd src
 
-#all : foo
-#.PHONY : all
+all : test
+.PHONY : all
 
 test: $(OBJS)
-	cd src; g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
+	g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS) -i $(PATH)/$(FILES)
 
 #foo.o: bar.o baz.o
 
 %.o: %.c
-	cd src; g++ -c $(CFLAGS) $< -o $@
+	g++ -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(OBJS) $(EXEC)
