@@ -10,14 +10,12 @@ HEADERS =
 #.PHONY : all
 
 test: $(OBJS)
-	cd src
-	gcc -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
+	src/gcc -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
 
 #foo.o: bar.o baz.o
 
 %.o: %.c
-	cd src
-	gcc -c $(CFLAGS) $< -o $@
+	src/gcc -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(OBJS) $(EXEC)
