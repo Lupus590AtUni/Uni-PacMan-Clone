@@ -1,9 +1,10 @@
-//#include "test.hpp"
+#include "test.hpp"
 
 int main(void)
 {
-	//cout<<"It works!\n";
-	
+	string test;
+	cout<<"It works!\n";
+	cin>>test;
 	return 0;
 }
 
