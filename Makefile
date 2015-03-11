@@ -13,8 +13,8 @@ all : test
 .PHONY : all
 
 test: $(OBJS)
-	g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS) -i $(PATH)/$(FILES)
-
+	#g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS) -i $(PATH)/$(FILES)
+	g++ -o $(EXEC) $(OBJS) -I $(HEADERS) $(LIBS) $(PATH)/$(FILES) 
 #foo.o: bar.o baz.o
 
 *.o: $(PATH)/$(FILES)
