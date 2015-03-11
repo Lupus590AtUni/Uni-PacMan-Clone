@@ -16,5 +16,7 @@ Nephi|Lupus|lupus590@users.noreply.github.com
 Install: http://nuwen.net/mingw.html
 
 Add the bin folder created from above to the windows environment path: http://www.computerhope.com/issues/ch000549.htm
+
 Windows and visual studio are now ready with the project I have provided
+
 -Nephi
