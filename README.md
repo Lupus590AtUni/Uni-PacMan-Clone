@@ -1,6 +1,8 @@
 # PacMan-Clone
 A clone of the well known game for a group assignment
 
+view the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
+
 Student Name|Github user Name|Commit Email
 ------------|----------------|------------
 Axl|<Account name here>|<email here>
