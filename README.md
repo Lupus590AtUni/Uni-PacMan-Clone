@@ -8,7 +8,7 @@ Student Name|Github user Name|Commit Email
 Axl|<Account name here>|<email here>
 Ieuan|<Account name here>|<email here>
 James|Cook-E|Cook-E@users.noreply.github.com 
-Nephi|Lupus|lupus590@users.noreply.github.com
+Nephi|lupus590|lupus590@users.noreply.github.com
 
 
 #Setting up visual studio and windows to work with make files and g++
