@@ -16,14 +16,6 @@
   <ItemGroup>
     <ClInclude Include="src\test.hpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include=".travis.yml">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </None>
-    <None Include="Makefile">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </None>
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9112626B-0DC1-4AEA-A044-2552AB0A5166}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
