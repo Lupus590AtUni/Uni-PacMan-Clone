@@ -6,18 +6,18 @@ EXEC = test
 CFLAGS = -ggdb -Wall
 HEADERS = 
 
-cd src
+#cd src
 
 #all : foo
 #.PHONY : all
 
 test: $(OBJS)
-	gcc -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
+	cd src; gcc -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS)
 
 #foo.o: bar.o baz.o
 
 %.o: %.c
-	gcc -c $(CFLAGS) $< -o $@
+	cd src; gcc -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(OBJS) $(EXEC)
