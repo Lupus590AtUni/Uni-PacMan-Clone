@@ -17,7 +17,7 @@ test: $(OBJS)
 
 #foo.o: bar.o baz.o
 
-%.o: %.c
+*.o: $(PATH)/$(FILES)
 	g++ -c $(CFLAGS) $< -o $@
 
 clean:
