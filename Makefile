@@ -1,25 +1,28 @@
-#Makefile
+#Needs this to know shell - http://www.cplusplus.com/forum/unices/51045/
+#and this to make it right - http://stackoverflow.com/questions/7534572/make-c-command-not-found?rq=1
+SHELL:= /bin/bash
+LDLIBS = #-L/path -lnameOfDll
+EXEC = test.exe
+CCFLAGS = -Wall -ggdb
+HEADERS = #-I
+#Found this here - http://mrbook.org/blog/tutorials/make/
+SOURCES:=$(wildcard src/*.cpp)
+OBJS:=$(addprefix obj/,$(notdir $(SOURCES:.cpp=.o)))
+CXX := g++
 
-OBJS = test.o
-LDLIBS = 
-EXEC = test
-CFLAGS = -ggdb -Wall
-HEADERS = 
-PATH=src
-FILES=*.hpp *.cpp
+#Found this here - http://stackoverflow.com/questions/2908057/makefiles-compile-all-cpp-files-in-src-to-os-in-obj-then-link-to-binary
+CC_FLAGS += -MMD
+-include $(OBJFILES:.o=.d)
 
-
-all : test
+all: test
 .PHONY : all
 
 test: $(OBJS)
-	#g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS) -i $(PATH)/$(FILES)
-	g++ -o $(EXEC) $(OBJS) -I $(HEADERS) $(LIBS) $(PATH)/$(FILES) 
+	$(CXX) -o $(EXEC) $(HEADERS) $(LDLIBS) $^
 
-	
-#problem is here
-*.o: $(PATH)/$(FILES)
-	g++ -c $(CFLAGS) $< -o $@
+obj/%.o: src/%.cpp
+	$(CXX) $(CCFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJS) $(EXEC)
+	rm -f $(OBJS) 
+	rm -f $(EXEC)
