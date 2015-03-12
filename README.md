@@ -20,3 +20,5 @@ Add the bin folder created from above to the windows environment path: http://ww
 Windows and visual studio are now ready with the project I have provided
 
 -Nephi
+
+TODO: make travis run the exe, sort out libs
