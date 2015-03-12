@@ -6,7 +6,7 @@ View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
 Student Name|Github user Name|Commit Email
 ------------|----------------|------------
 Axl|<Account name here>|<email here>
-Ieuan|<Account name here>|<email here>
+Ieuan|Flowerpot94|Flowerpot94@sers.noreply.github.com
 James|Cook-E|Cook-E@users.noreply.github.com 
 Nephi|lupus590|lupus590@users.noreply.github.com
 
