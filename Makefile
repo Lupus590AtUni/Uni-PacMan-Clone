@@ -14,16 +14,10 @@ all : test
 
 test: $(OBJS)
 	#g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS) -i $(PATH)/$(FILES)
-	g++ -o $(EXEC) $(OBJS) -I $(HEADERS) $(LIBS) $(PATH)/$(FILES) 
-#foo.o: bar.o baz.o
+	g++ -o $(EXEC) $(OBJS) -i $(HEADERS) $(LIBS) $(PATH)/$(FILES) 
 
 *.o: $(PATH)/$(FILES)
 	g++ -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(OBJS) $(EXEC)
-
-#untested!
-#install: foo
-#	install -m 644 foo /$(HOME)/bin
-#.PHONY: install
