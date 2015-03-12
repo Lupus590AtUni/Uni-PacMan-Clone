@@ -1,4 +1,6 @@
 #set up by Nephi
+#validate this file here: http://lint.travis-ci.org/
+
 language: cpp
 compiler:
   - g++
