@@ -2,7 +2,7 @@
 #and this to make it right - http://stackoverflow.com/questions/7534572/make-c-command-not-found?rq=1
 SHELL:= /bin/bash
 LDLIBS = #-L/path -lnameOfDll
-EXEC = build/PacMan-Clone.exe
+EXEC = PacMan-Clone.exe #build/PacMan-Clone.exe
 CCFLAGS = -Wall -ggdb
 HEADERS = #-I
 #Found this here - http://mrbook.org/blog/tutorials/make/
