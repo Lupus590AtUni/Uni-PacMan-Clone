@@ -14,8 +14,10 @@ all : test
 
 test: $(OBJS)
 	#g++ -o $(EXEC) $(OBJS) $(HEADERS) $(LDLIBS) -i $(PATH)/$(FILES)
-	g++ -o $(EXEC) $(OBJS) -i $(HEADERS) $(LIBS) $(PATH)/$(FILES) 
+	g++ -o $(EXEC) $(OBJS) -I $(HEADERS) $(LIBS) $(PATH)/$(FILES) 
 
+	
+#problem is here
 *.o: $(PATH)/$(FILES)
 	g++ -c $(CFLAGS) $< -o $@
 
