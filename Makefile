@@ -1,9 +1,6 @@
 #TODO: put in -g so that g++ keeps the debugging data in, where does the -g go?
 #TODO: have a make option that removes the debug info (make deploy , output to deploy folder, will need t update travis to use this command)?
 
-
-
-
 #Needs this to know shell - http://www.cplusplus.com/forum/unices/51045/
 #and this to make it right - http://stackoverflow.com/questions/7534572/make-c-command-not-found?rq=1
 SHELL:= /bin/bash
@@ -23,12 +20,12 @@ CC_FLAGS += -MMD
 all: test
 .PHONY : all
 
-test: $(OBJS)
 #compile
+test: $(OBJS)
 	$(CXX) -g -o $(EXEC) $(HEADERS) $(LDLIBS) $^
 
-obj/%.o: src/%.cpp
 #link
+obj/%.o: src/%.cpp
 	$(CXX) -$(CCFLAGS) -c $< -o $@
 
 clean:
