@@ -6,6 +6,7 @@ int main(void)
 	cout<<"It works!\n";
 	cout<<"DB breakpoint test\n";
 	cin>>test;
-	return 0;
+	return 1;
+	//return 0;
 }
 
