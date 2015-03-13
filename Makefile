@@ -24,10 +24,12 @@ all: test
 .PHONY : all
 
 test: $(OBJS)
-	$(CXX) -o $(EXEC) $(HEADERS) $(LDLIBS) $^
+#compile
+	$(CXX) -g -o $(EXEC) $(HEADERS) $(LDLIBS) $^
 
 obj/%.o: src/%.cpp
-	$(CXX) $(CCFLAGS) -c $< -o $@
+#link
+	$(CXX) -$(CCFLAGS) -c $< -o $@
 
 clean:
 	rm -f $(OBJS) 
