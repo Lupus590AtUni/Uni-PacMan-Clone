@@ -21,4 +21,4 @@ Windows and visual studio are now ready with the project I have provided
 
 -Nephi
 
-TODO: make travis run the exe, sort out libs
+TODO: make travis run the exe from a sub folder (runs in root ok), sort out libs
