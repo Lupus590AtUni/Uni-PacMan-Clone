@@ -1,4 +1,4 @@
-#TODO: put in -g so that gcc keeps the debugging data in, where does the -g go?
+#TODO: put in -g so that g++ keeps the debugging data in, where does the -g go?
 #TODO: have a make option that removes the debug info (make deploy , output to deploy folder, will need t update travis to use this command)?
 
 
