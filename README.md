@@ -3,6 +3,8 @@ A clone of the well known game for a group assignment
 
 View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
 
+until I can setup visual studio to do the debugging we will have to use this: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+
 this may be useful: http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf
 
 some interesting stuff here: http://www.sourcepole.com/sources/programming/cpp/cppqref.html
