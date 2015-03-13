@@ -22,7 +22,8 @@ all: test
 
 #compile
 test: $(OBJS)
-	$(CXX) -g -o $(EXEC) $(HEADERS) $(LDLIBS) $^
+	$(CXX) -o $(EXEC) $(HEADERS) $(LDLIBS) $^
+	#$(CXX) -g -o $(EXEC) $(HEADERS) $(LDLIBS) $^
 
 #link
 obj/%.o: src/%.cpp
