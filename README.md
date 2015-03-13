@@ -3,6 +3,8 @@ A clone of the well known game for a group assignment
 
 View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
 
+this may be useful: http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf
+
 Student Name|Github user Name|Commit Email
 ------------|----------------|------------
 Axl|<Account name here>|<email here>
