@@ -6,7 +6,7 @@
 SHELL:= /bin/bash
 LDLIBS = #-L/path -lnameOfDll
 EXEC = build/PacMan-Clone.exe
-CCFLAGS = -Wall -ggdb
+CCFLAGS = -ggdb #-Wall -ggdb
 HEADERS = #-I
 #Found this here - http://mrbook.org/blog/tutorials/make/
 SOURCES:=$(wildcard src/*.cpp)
