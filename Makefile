@@ -20,12 +20,9 @@ CC_FLAGS += -MMD
 all: test
 .PHONY : all
 
-#compile
 test: $(OBJS)
 	$(CXX) -o $(EXEC) $(HEADERS) $(LDLIBS) $^
-	#$(CXX) -g -o $(EXEC) $(HEADERS) $(LDLIBS) $^
 
-#link
 obj/%.o: src/%.cpp
 	$(CXX) -$(CCFLAGS) -c $< -o $@
 
