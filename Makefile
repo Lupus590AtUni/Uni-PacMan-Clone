@@ -21,7 +21,7 @@ all: test
 .PHONY : all
 
 test: $(OBJS)
-	$(CXX) -g $(EXEC) $(HEADERS) $(LDLIBS) $^
+	$(CXX) -g -o $(EXEC) $(HEADERS) $(LDLIBS) $^
 
 obj/%.o: src/%.cpp
 	$(CXX) $(CCFLAGS) -c $< -o $@
