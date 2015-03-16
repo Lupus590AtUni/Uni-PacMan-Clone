@@ -5,6 +5,8 @@ View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
 
 until I can setup visual studio to do the debugging we will have to use this: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 
+if you want to debug then use GDB (see above link) or use QT creator for a gui: https://www.qt.io/download/
+
 
 Student Name|Github user Name|Commit Email
 ------------|----------------|------------
