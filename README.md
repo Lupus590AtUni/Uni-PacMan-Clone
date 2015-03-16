@@ -5,9 +5,6 @@ View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
 
 until I can setup visual studio to do the debugging we will have to use this: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 
-this may be useful: http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf
-
-some interesting stuff here: http://www.sourcepole.com/sources/programming/cpp/cppqref.html
 
 Student Name|Github user Name|Commit Email
 ------------|----------------|------------
@@ -28,3 +25,9 @@ Windows and visual studio are now ready with the project I have provided
 -Nephi
 
 TODO: make travis run the exe from a sub folder (runs in root ok), sort out libs
+
+#random stuff
+
+this may be useful: http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf
+
+some interesting stuff here: http://www.sourcepole.com/sources/programming/cpp/cppqref.html
