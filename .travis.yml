@@ -7,5 +7,5 @@ compiler:
   #- clang
 # Change this to your needs
 #script: ./configure && make
-script: cmake clean && cmake #&& ./build/./PacMan-Clone.exe
+script: make clean && make #&& ./build/./PacMan-Clone.exe
 #script: make clean && make deploy #&& ./build/./PacMan-Clone.exe
