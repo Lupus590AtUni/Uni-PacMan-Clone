@@ -26,8 +26,6 @@ Windows and visual studio are now ready with the project I have provided
 
 -Nephi
 
-TODO: make travis run the exe from a sub folder (runs in root ok), sort out libs
-
 #random stuff
 
 this may be useful: http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf
