@@ -3,7 +3,7 @@
 
 Please Try to keep the master branch with working code. If you want to test something, use your dev branch. It is your responsibility to keep your branch up to date with the master.
 
-One final rule: you break it, you ~~buy~~ bebug it, hope you know GDB! :smilly:
+One final rule: you break it, you ~~buy~~ bebug it, hope you know GDB! :trollface:
 
 View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
 
