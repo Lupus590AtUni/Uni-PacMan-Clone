@@ -1,12 +1,17 @@
 # PacMan-Clone
-A clone of the well known game for a group assignment
+###A clone of the well known game for a group assignment
+
+Please Try to keep the master branch with working code. If you want to test something, use your dev branch. It is your responsibility to keep your branch up to date with the master.
+
+One final rule: you break it, you ~~buy~~ bebug it, hope you know GDB! :smilly:
 
 View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
 
-until I can setup visual studio to do the debugging we will have to use this: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+Until I can setup visual studio to do the debugging we will have to use this: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 
-if you want to debug then use GDB (see above link) or use QT creator for a gui: https://www.qt.io/download/
+If you want/need to debug then use GDB (see above link) or use QT creator for a gui: https://www.qt.io/download/
 
+##Team Details
 
 Student Name|Github user Name|Commit Email
 ------------|----------------|------------
@@ -16,7 +21,7 @@ James|Cook-E|Cook-E@users.noreply.github.com
 Nephi|lupus590|lupus590@users.noreply.github.com
 
 
-#Setting up visual studio and windows to work with make files and g++
+##Setting up visual studio and windows to work with make files and g++
 
 Install: http://nuwen.net/mingw.html
 
@@ -26,7 +31,7 @@ Windows and visual studio are now ready with the project I have provided
 
 -Nephi
 
-#random stuff
+##random stuff
 
 this may be useful: http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf
 
