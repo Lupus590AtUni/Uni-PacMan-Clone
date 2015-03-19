@@ -23,6 +23,8 @@ Nephi|lupus590|lupus590@users.noreply.github.com
 
 ####Setting up visual studio and windows to work with make files and g++
 
+There is a Qt Creator project now too, I would recoment that you use that https://www.qt.io/download/
+
 Install: http://nuwen.net/mingw.html
 
 Add the bin folder created from above to the windows environment path: http://www.computerhope.com/issues/ch000549.htm
