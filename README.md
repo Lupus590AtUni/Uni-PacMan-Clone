@@ -1,7 +1,7 @@
 # PacMan-Clone
 #####A clone of the well known game for a group assignment
 
-######do you guys want a Qt code style xml? that way all of our code will have the same layout
+######Do you guys want a Qt code style xml? that way all of our code will have the same layout
 
 Please Try to keep the master branch with working code. If you want to test something, use your dev branch. It is your responsibility to keep your branch up to date with the master.
 
