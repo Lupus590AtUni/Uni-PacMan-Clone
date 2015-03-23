@@ -27,6 +27,8 @@ Nephi|lupus590|lupus590@users.noreply.github.com
 
 There is a Qt Creator project now too, I would recoment that you use that https://www.qt.io/download/
 
+#####If you really want to use VS though:
+
 Install: http://nuwen.net/mingw.html
 
 Add the bin folder created from above to the windows environment path: http://www.computerhope.com/issues/ch000549.htm
