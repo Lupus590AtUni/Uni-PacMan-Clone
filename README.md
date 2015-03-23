@@ -3,7 +3,7 @@
 
 ######Do you guys want a Qt code style xml? that way all of our code will have the same layout
 
-Please Try to keep the master branch with working code. If you want to test something, use your dev branch. It is your responsibility to keep your branch up to date with the master.
+Please try to keep the master branch with working code. If you want to test something, use your dev branch. **It is your responsibility to keep your branch up to date with the master.**
 
 One final rule: you break it, you ~~buy~~ bebug it, hope you know GDB! :trollface:
 
