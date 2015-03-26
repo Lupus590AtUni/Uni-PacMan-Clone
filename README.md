@@ -27,7 +27,9 @@ Nephi|lupus590|lupus590@users.noreply.github.com
 
 There is a Qt Creator project now too, I would recoment that you use that https://www.qt.io/download/
 
-#####If you really want to use VS though:
+If you are using Qt Creator, I would recommend the todo plugin: in Qt Creator click help->about plugins...->in the utilities sub tree->Todo. Feel free to see what it does by selecting it (so it's highlighted, not just ticked) and click details.
+
+#####If you really want to use VS though: (not recommended as debugging will be difficult)
 
 Install: http://nuwen.net/mingw.html
 
