@@ -17,7 +17,7 @@ If you want/need to debug then use GDB (see above link) or use QT creator for a 
 
 Student Name|Github user Name|Commit Email
 ------------|----------------|------------
-Axl|AxlWest|<email here>
+Axl|AxlWest|AxlWest@users.noreply.github.com
 Ieuan|Flowerpot94|Flowerpot94@users.noreply.github.com
 James|Cook-E|Cook-E@users.noreply.github.com 
 Nephi|lupus590|lupus590@users.noreply.github.com
