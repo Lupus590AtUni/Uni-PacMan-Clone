@@ -1,0 +1,11 @@
+#set up by Nephi
+#validate this file here: http://lint.travis-ci.org/
+
+language: cpp
+compiler:
+  - g++
+  #- clang
+# Change this to your needs
+#script: ./configure && make
+script: make clean && make #&& ./build/./PacMan-Clone.exe
+#script: make clean && make deploy #&& ./build/./PacMan-Clone.exe
