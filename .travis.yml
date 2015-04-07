@@ -7,5 +7,5 @@ compiler:
   #- clang
 # Change this to your needs
 #script: ./configure && make
-script: make clean && make #&& ./build/./PacMan-Clone.exe
+script: https://www.libsdl.org/release/SDL-1.2.15-1.i386.rpm && make clean && make #&& ./build/./PacMan-Clone.exe
 #script: make clean && make deploy #&& ./build/./PacMan-Clone.exe
