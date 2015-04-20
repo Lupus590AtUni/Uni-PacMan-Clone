@@ -1,7 +1,7 @@
 # PacMan-Clone
 #####A clone of the well known game for a group assignment
 
-[![Build Status](https://travis-ci.org/lupus590/PacMan-Clone.svg?branch=Dev-Nephi)](https://travis-ci.org/lupus590/PacMan-Clone)
+[![Build Status](https://travis-ci.org/lupus590/Uni-PacMan-Clone.svg?branch=master)](https://travis-ci.org/lupus590/Uni-PacMan-Clone)
 
 ######Do you guys want a Qt code style xml? that way all of our code will have the same layout
 
@@ -9,7 +9,7 @@ Please try to keep the master branch with working code. If you want to test some
 
 One final rule: you break it, you ~~buy~~ debug it, hope you know GDB! :trollface:
 
-We are using travis as our contious intergation server, it will (attempt to) build every branch in this repo. View the CI builds here: https://travis-ci.org/lupus590/PacMan-Clone/builds
+We are using travis as our contious intergation server, it will (attempt to) build every branch in this repo. View the CI builds here: https://travis-ci.org/lupus590/Uni-PacMan-Clone/builds
 
 Until I can setup visual studio to do the debugging we will have to use this: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 
