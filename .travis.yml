@@ -4,8 +4,9 @@
 language: cpp
 compiler:
   - g++
-  #- clang
-# Change this to your needs
-#script: ./configure && make
-script: https://www.libsdl.org/release/SDL-1.2.15-1.x86_64.rpm && make clean && make #&& ./build/./PacMan-Clone.exe
+
+#before_install:
+#  - install https://www.libsdl.org/release/SDL-1.2.15-1.x86_64.rpm
+
+script:  make clean && make #&& ./build/./PacMan-Clone.exe
 #script: make clean && make deploy #&& ./build/./PacMan-Clone.exe
