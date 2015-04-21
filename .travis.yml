@@ -5,8 +5,14 @@ language: cpp
 compiler:
   - g++
 
-install:
-  - sudo apt-get sdl-dev
+ before_install:
+  - wget https://www.libsdl.org/release/SDL-1.2.15-1.x86_64.rpm
+  - sudo dpkg -i SDL-1.2.15-1.x86_64.rpm
+  
+  
+  
+#install:
+#  - sudo apt-get sdl-dev
 
 script:  make clean && make && ./build/./PacMan-Clone.exe
 #script: make clean && make deploy #&& ./build/./PacMan-Clone.exe
