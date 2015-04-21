@@ -6,8 +6,8 @@ compiler:
   - g++
 
  before_install:
-  - wget https://www.libsdl.org/release/SDL-1.2.15-1.x86_64.rpm
-  - sudo dpkg -i SDL-1.2.15-1.x86_64.rpm
+  - wget https://www.libsdl.org/release/SDL-devel-1.2.15-1.x86_64.rpm
+  - sudo dpkg -i SDL-devel-1.2.15-1.x86_64.rpm
   
   
   
