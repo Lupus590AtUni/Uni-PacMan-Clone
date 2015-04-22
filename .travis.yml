@@ -18,7 +18,9 @@ install:
  - sudo dpkg -i sdl-devel_1.2.15-2_amd64.deb
   
 
-script:  make clean && make && ./build/./PacMan-Clone.exe
+script:  make clean && make
+#We are making a game, this uses a lot of user interaction. Running the build is probably something that should not be done with Travis.
+#&& ./build/./PacMan-Clone.exe
 
 
 #after_success:
