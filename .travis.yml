@@ -6,7 +6,7 @@ language: cpp
 compiler:
  - g++
 
- before_install:
+ #before_install:
 
 install:
  - wget https://www.libsdl.org/release/SDL-devel-1.2.15-1.x86_64.rpm
@@ -16,9 +16,9 @@ install:
 script:  make clean && make && ./build/./PacMan-Clone.exe
 
 
-after_success:
+#after_success:
 
-after_failure:
+#after_failure:
 
-after_script:
- - 
+#after_script:
+ 
