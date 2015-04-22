@@ -11,10 +11,8 @@ compiler:
 install:
  - wget https://www.libsdl.org/release/SDL-devel-1.2.15-1.x86_64.rpm
  - sudo apt-get install alien
- #alien converst rpm to deb, ubuntu can only install deb
+ #alien converts rpm to deb, ubuntu can only install deb
  - sudo alien SDL-devel-1.2.15-1.x86_64.rpm
- #my ubuntu VM fails this next part
- - ls
  - sudo dpkg -i sdl-devel_1.2.15-2_amd64.deb
   
 
