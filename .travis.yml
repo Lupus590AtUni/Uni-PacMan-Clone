@@ -14,7 +14,8 @@ install:
  #alien converst rpm to deb, ubuntu can only install deb
  - sudo alien SDL-devel-1.2.15-1.x86_64.rpm
  #my ubuntu VM fails this next part
- - sudo dpkg -i SDL-devel-1.2.15-1.x86_64.deb
+ - ls
+ - sudo dpkg -i SDL-devel-1.2.15-1_amd64.deb
   
 
 script:  make clean && make && ./build/./PacMan-Clone.exe
