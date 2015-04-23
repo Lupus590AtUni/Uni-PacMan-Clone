@@ -3,7 +3,11 @@
 #Needs this to know shell - http://www.cplusplus.com/forum/unices/51045/
 #and this to make it right - http://stackoverflow.com/questions/7534572/make-c-command-not-found?rq=1
 SHELL:= /bin/bash
-LDLIBS = -L/$(wildcard lib/*.)
+
+ifeq ($(OS),Windows_NT)
+    LDLIBS = -L/$(wildcard lib/*.)
+endif
+
 EXEC = build/PacMan-Clone.exe
 CCFLAGS = -Wall -ggdb
 HEADERS = #-I
