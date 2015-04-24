@@ -16,6 +16,11 @@ install:
  - sudo alien SDL-devel-1.2.15-1.x86_64.rpm
  - sudo dpkg -i sdl-devel_1.2.15-2_amd64.deb
   
+  
+#after_install:
+  
+#before_script:
+
 
 script:  make clean && make
 #We are making a game, this uses a lot of user interaction. Running the build is probably something that should not be done with Travis.
