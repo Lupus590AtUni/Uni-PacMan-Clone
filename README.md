@@ -44,5 +44,3 @@ Windows and visual studio are now ready with the project I have provided
 ####Random Stuff
 
 this may be useful: http://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf
-
-some interesting stuff here: http://www.sourcepole.com/sources/programming/cpp/cppqref.html
