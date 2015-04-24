@@ -19,8 +19,11 @@ install:
   
 #after_install:
   
-#before_script:
-
+before_script:
+ #if build directory doesn't exist, make it
+ - if [! -d "build" ]; then
+ -   mkdir build
+ - if
 
 script:  make clean && make
 #We are making a game, this uses a lot of user interaction. Running the build is probably something that should not be done with Travis.
