@@ -20,8 +20,8 @@ CXX := g++
 CC_FLAGS += -MMD
 -include $(OBJFILES:.o=.d)
 
-debug: test
-.PHONY : debug
+#debug: test
+#.PHONY : debug
 all: test
 .PHONY : all
 
