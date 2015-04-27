@@ -4,7 +4,7 @@
 #ifdef (WIN32)
   #include "SDL.h"
 #else
-  #include <SDL.h>
+  #include <SDL/SDL.h>
 #end
 
 class Events
