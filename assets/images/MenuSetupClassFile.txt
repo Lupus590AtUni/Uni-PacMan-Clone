@@ -1,0 +1,13 @@
+200
+200
+250
+250
+300
+300
+350
+350
+../assets/images/backgroundImage.bmp
+../assets/images/playButtonImage.bmp
+../assets/images/highscoreButtonImage.bmp
+../assets/images/toggleMusicButtonImage.bmp
+../assets/images/exitButtonImage.bmp

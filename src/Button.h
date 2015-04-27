@@ -1,6 +1,10 @@
 #pragma once
 
-#include "SDL.h"
+#ifdef (WIN32)
+  #include "SDL.h"
+#else
+  #include <SDL.h>
+#end
 
 class Button
 {

@@ -1,7 +1,14 @@
 #include <stdio.h>
-#include "SDL.h"
-#include "SDL_mixer.h"
-#include "SDL_image.h"
+
+#ifdef (WIN32)
+  #include "SDL.h"
+  #include "SDL_mixer.h"
+  #include "SDL_image.h"
+#else
+  #include <SDL.h>
+  #include <SDL_mixer.h>
+  #include <SDL_image.h>
+#end
 #include "Sound.h"
 #include "Events.h"
 #include "Menu.h"

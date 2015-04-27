@@ -1,7 +1,12 @@
 #pragma once
 
-#include "SDL.h"
-#include "SDL_image.h"
+#ifdef (WIN32) 
+  #include "SDL.h"
+  #include "SDL_image.h"
+#else
+  #include <SDL.h>
+  #include <SDL_image.h>
+#endif
 
 //Image handling functions
 class Image

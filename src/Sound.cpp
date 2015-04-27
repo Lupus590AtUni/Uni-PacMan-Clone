@@ -26,11 +26,11 @@ void Sound::init(void)
 
 	Mix_OpenAudio(22050 , MIX_DEFAULT_FORMAT , 2 , 4096) ;
 	
-	this->music = Mix_LoadMUS("Music.mp3") ; //http://www.classicgaming.cc/classics/pacman/sounds.php
+	this->music = Mix_LoadMUS("../assets/music/pacman.mp3") ; //http://www.classicgaming.cc/classics/pacman/sounds.php
 
 	if(this->music == NULL)
 	{
-		printf("Mix_LoadMUS(\"Music.mp3\"): %s\n", Mix_GetError()) ;
+		printf("Mix_LoadMUS(\"../assets/music/pacman.mp3\"): %s\n", Mix_GetError()) ;
 	}
 }
 

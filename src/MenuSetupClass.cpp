@@ -8,7 +8,7 @@ using std::fstream ;
 using std::getline ;*/
 #include <stdio.h>
 
-const char MenuSetupClass::FILE_NAME[] = "MenuSetupClassFile.txt" ;
+const char MenuSetupClass::FILE_NAME[] = "../assets/MenuSetupClassFile.txt" ;
 
 MenuSetupClass::MenuSetupClass(void)
 {
