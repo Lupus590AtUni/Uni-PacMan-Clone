@@ -8,7 +8,7 @@
   #include <SDL/SDL.h>
   #include <SDL/SDL_mixer.h>
   #include <SDL/SDL_image.h>
-#end
+#endif
 #include "Sound.h"
 #include "Events.h"
 #include "Menu.h"

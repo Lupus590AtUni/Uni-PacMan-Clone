@@ -5,7 +5,7 @@
   #include "SDL.h"
 #else
   #include <SDL/SDL.h>
-#end
+#endif
 
 class Events
 {
