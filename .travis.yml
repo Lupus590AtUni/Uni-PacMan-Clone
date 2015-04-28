@@ -11,10 +11,10 @@ compiler:
 
 install:
  - wget https://www.libsdl.org/release/SDL-devel-1.2.15-1.x86_64.rpm
-   sudo apt-get install alien
+ - sudo apt-get install alien
  #alien converts rpm to deb, ubuntu can only install deb
-   sudo alien SDL-devel-1.2.15-1.x86_64.rpm
-   sudo dpkg -i sdl-devel_1.2.15-2_amd64.deb
+ - sudo alien SDL-devel-1.2.15-1.x86_64.rpm
+ - sudo dpkg -i sdl-devel_1.2.15-2_amd64.deb
   
   
 #after_install:
@@ -25,10 +25,10 @@ install:
 script:
  - make clean
  # the -p allows mkdir to exit if the directory already exists
-   mkdir -p build
-   mkdir -p obj
-   make
-   ./build/PacMan-Clone.exe
+ - mkdir -p build
+ - mkdir -p obj
+ - make
+ - ./build/PacMan-Clone.exe
 
 
 #after_success:
