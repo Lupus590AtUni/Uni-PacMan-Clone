@@ -8,7 +8,7 @@ SHELL:= /bin/bash
 #    LDLIBS = -L/$(wildcard lib/*.)
 #endif
 
-LDLIBS = -L SDL
+LDLIBS = -L SDL.a
 
 EXEC = build/PacMan-Clone.exe
 CCFLAGS = -Wall -ggdb
