@@ -1,3 +1,6 @@
+/* SEP ASSIGNMENT 2
+Programmed by James Cookson */
+
 #include "Level.h"
 
 Level::Level()
@@ -20,11 +23,30 @@ Level::Level()
 		for (int j = 0; j < col; j++)
 		{
 			file >> Maze[i][j].value; //Retrieve maze data
+			
+			//Creates co-ordinates for Maze array, makes finding specific points easier
+			Maze[i][j].y = j;
+			Maze[i][j].x = i;
+
+			if (Maze[i][j].value == 2) //If the number representing the player is found
+			{
+				startPoint.x = i;
+				startPoint.y = j;
+			}
+			else
+			{
+				if (Maze[i][j].value == 3) //If the number representing the enemy is found
+				{
+					Enemy1.x = i;
+					Enemy1.y = j;
+				}
+			}
+
 		}
 	}
 
 	file.close(); //Close file
-
+	
 	PrintFile(); //Run PrintFile function
 	PrintMaze(); //Run PrintMaze function
 }
@@ -40,7 +62,6 @@ Level::~Level()
 
 void Level::PrintFile()
 {
-	cout << "Maze from File: " << endl << endl;
 	for (int i = 0; i < row; i++)
 	{
 		cout << "\t";
@@ -55,12 +76,10 @@ void Level::PrintFile()
 
 void Level::PrintMaze()
 {
-	cout << "Maze Simplified View: " << endl;
-	cout << endl << endl;
-
 	for (int i = 0; i<row; i++)
 	{
 		cout << "\t";
+		//cout << i << "-> \t"; //Number rows for easier tracking
 
 		for (int j = 0; j<col; j++)
 		{
@@ -70,7 +89,11 @@ void Level::PrintMaze()
 			}
 			else if (Maze[i][j].value == 2)
 			{
-				cout << char(80);
+				cout << char(80); //P character is drawn to represent player
+			}
+			else if (Maze[i][j].value == 3)
+			{
+				cout << char(69); //E character is drawn to represent enemy
 			}
 			else
 			{
