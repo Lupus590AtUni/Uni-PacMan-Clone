@@ -24,7 +24,8 @@ install:
 
 script:
  - make clean
- - mkdir build
+ # the -p allows mkdir to exit if the directory already exists
+ - mkdir -p build
  - make
  - /build/./PacMan-Clone.exe
 
