@@ -4,9 +4,11 @@
 #and this to make it right - http://stackoverflow.com/questions/7534572/make-c-command-not-found?rq=1
 SHELL:= /bin/bash
 
-ifeq ($(OS),Windows_NT)
-    LDLIBS = -L/$(wildcard lib/*.)
-endif
+#ifeq ($(OS),Windows_NT)
+#    LDLIBS = -L/$(wildcard lib/*.)
+#endif
+
+LDLIBS = -L SDL
 
 EXEC = build/PacMan-Clone.exe
 CCFLAGS = -Wall -ggdb
