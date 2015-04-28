@@ -28,7 +28,7 @@ script:
  - mkdir -p build
  - mkdir -p obj
  - make
- - /build/./PacMan-Clone.exe
+ - ./build/PacMan-Clone.exe
 
 
 #after_success:
