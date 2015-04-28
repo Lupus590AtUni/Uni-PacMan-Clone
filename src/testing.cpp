@@ -1,4 +1,4 @@
-#include <SDL>
+#include <SDL/SDL.h>
 
 int main (int argc, char* argv[])
 {
