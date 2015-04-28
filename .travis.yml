@@ -24,6 +24,7 @@ install:
 
 script:
  - make clean
+ - mkdir build
  - make
  - /build/./PacMan-Clone.exe
 
