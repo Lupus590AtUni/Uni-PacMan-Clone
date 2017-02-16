@@ -16,6 +16,11 @@ install:
  - sudo alien SDL-devel-1.2.15-1.x86_64.rpm
  - sudo dpkg -i sdl-devel_1.2.15-2_amd64.deb
   
+  
+#after_install:
+  
+#before_script:
+
 
 script: 
  - make clean
